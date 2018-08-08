@@ -1,14 +1,13 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-import simpleimage as si
-
+from simpleimage import FileName
 
 def test_constructor():
-    filename = si.FileName('')
+    filename = FileName('')
     assert(filename != None)
 
 
 def test_str():
-    filename = si.FileName('')
+    filename = FileName('')
     assert(str(filename) != None)

@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-import simpleimage as si
+from simpleimage import SimpleImage
 
 
 def test_constructor():
-    image = si.SimpleImage((100, 100))
+    image = SimpleImage((100, 100))
     assert(image != None)
