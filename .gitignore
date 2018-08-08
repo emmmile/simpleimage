@@ -1,0 +1,11 @@
+res/*
+*.swp
+*.*~
+*.pyc
+build
+__pycache__
+.vscode
+.idea
+*.egg-info
+Pipfile.lock
+.pytest_cache
