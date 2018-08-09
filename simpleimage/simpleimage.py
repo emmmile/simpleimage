@@ -3,12 +3,14 @@
 
 import cv2
 import logging
+import numpy as np
 
 
-# 1 channel accumulation plot
+# One channel accumulation plot.
 class SimpleImage(object):
     def __init__(self, size):
-        pass
+        # https://stackoverflow.com/questions/7762948/how-to-convert-an-rgb-image-to-numpy-array
+        self.image = np.zeros(size, np.uint32)
     
     def draw_point(self, point):
         pass

@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 opencv-python = "*"
-image-tools = {editable = true, path = "."}
+numpy = "*"
 
 [dev-packages]
 pytest = "*"
