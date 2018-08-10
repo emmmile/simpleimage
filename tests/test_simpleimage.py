@@ -6,4 +6,4 @@ from simpleimage import SimpleImage
 
 def test_constructor():
     image = SimpleImage((100, 100))
-    assert(image != None)
+    assert(image is not None)

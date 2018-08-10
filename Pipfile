@@ -6,9 +6,12 @@ name = "pypi"
 [packages]
 opencv-python = "*"
 numpy = "*"
+"flake8-mypy" = "*"
 
 [dev-packages]
 pytest = "*"
+"flake8" = "*"
+"flake8-mypy" = "*"
 
 [requires]
 python_version = "3.7"
