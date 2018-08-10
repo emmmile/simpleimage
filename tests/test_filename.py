@@ -19,3 +19,4 @@ def test_str_no_microseconds():
 def test_str():
     filename = FileName('')
     assert(len(str(filename)) == len(filename.str()))
+    print(str(filename))
